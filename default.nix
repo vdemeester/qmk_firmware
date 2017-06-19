@@ -8,5 +8,6 @@ stdenv.mkDerivation rec {
 		gcc
 		avrgcclibc
 		teensy-loader-cli 
+		dfu-programmer
 	];
 }
